@@ -1,0 +1,7 @@
+---
+- hosts:192.168.56.101
+  roles:
+     - harish.apache
+  tasks:
+     - git : repo=https;//github.com/demoglot/html-samples-food.git dest= /var/www/html
+ 
